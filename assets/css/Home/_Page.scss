@@ -1,0 +1,32 @@
+.page{
+    background: #333333;
+    background-image: url(/assets/img/404.png);
+    .row{
+        height: 100vh;
+        .content{
+            h1{
+                font-size: 10rem;
+                color:#fff;
+               @media(min-width: 1024px){
+                font-size: 20rem;
+               }
+            }
+            span{
+                font-size: 2rem;
+                color:#fff;
+            }
+            p{
+                font-size: 1.1rem;
+                color:#fff;
+            }
+            button{
+                background-color: blueviolet;
+                color: white;
+                border-radius: 1.5rem;
+                font-size: 0.9rem;
+                color:#fff;
+            }
+        }
+    }
+    
+}
